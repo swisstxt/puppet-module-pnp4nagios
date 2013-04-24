@@ -1,0 +1,8 @@
+name    'rendhalver-pnp4nagios'
+version '0.1.0'
+author 'rendhalver'
+license 'Apache License, Version 2.0'
+summary 'manage pnp4nagios'
+description 'manage pnp4nagiods with puppet'
+project_page 'https://github.com/rendhalver/puppet-pnp4nagios'
+dependency 'puppetlabs/stdlib', '>=0.0.1'

@@ -1,8 +1,8 @@
 
 class pnp4nagios::params (
   $ensure = present,
-  $monitoring_type = hiera('monitoring::params::monitoring_type'),
-  $log_type = 'file',
+  $monitoring_type = 'icinga',
+  $log_type = 'syslog',
   $debug_lvl = 0,
 ) {
   # check log_type
